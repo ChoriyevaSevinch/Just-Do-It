@@ -1,0 +1,1207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lexend", sans-serif;
+}
+button{
+    border:none;
+    cursor: pointer;
+    font-family: "Lexend", sans-serif;
+    transition: 0.4s;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 1392px;
+    margin: 0 auto;
+    padding: 0 48px;
+}
+header{
+    padding: 32px 0 85px;
+    .container{
+      .header-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            img{
+                display: flex;
+            }
+        }
+        nav{
+            ul{
+                display: flex;
+                align-items: center;
+                gap: 48px;
+                li{
+                    font-weight: 400;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    color: #2c2c2c;
+                    transition: 0.1s;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        button{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background:inherit;
+            font-weight: 400;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #2c2c2c;
+            padding: 8px 20px;
+            border: 1px solid #2c2c2c;
+            border-radius: 38px;
+        }
+      }
+    }
+}
+.about{
+    margin-bottom: 120px;
+  .container{
+    .about-content{
+        .about-text{
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                text-transform: uppercase;
+                text-align: center;
+                color: #000;
+                margin-bottom: 28px;
+            }
+            h1{
+                font-weight: 600;
+                font-size: 148px;
+                letter-spacing: -0.04em;
+                text-transform: uppercase;
+                text-align: center;
+                color: #2c2c2c;
+            }
+        }
+        .about-bg{
+            background-image: url(../img/ski-flying-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            max-height: 560px;
+            height: 100vh;
+            border-radius: 48px;
+            .about-img{
+                .play{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 231px;
+                }
+                .text{
+                    display: flex;
+                    justify-content: end;
+                    padding-top: 161px;
+                    padding-bottom: 40px;
+                    p{
+                        font-weight: 400;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        text-align: right;
+                        color: #fff;
+                        padding-right: 40px;
+                        width: 290px;
+                    }
+                }
+            }
+        }
+    }
+  }
+}
+.wrap{
+    margin-bottom: 120px;
+    .container{
+        .wrap-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            .wrap-text{
+                max-width: 456px;
+                h2{
+                    font-weight: 500;
+                    font-size: 24px;
+                    text-transform: uppercase;
+                    color: #000;
+                    margin-bottom: 12px;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #7a7a7a;
+                }
+            }
+            .wrap-sports-equipment{
+                max-width: 548px;
+                width: 100%;
+                .surfing{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #cbcbcb;
+                    margin-bottom: 24px;
+                    h3{
+                        font-weight: 500;
+                        font-size: 40px;
+                        text-transform: uppercase;
+                        color: #000;
+                        margin-bottom: 24px;
+                    }
+                }
+
+                .diving{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #cbcbcb;
+                    margin-bottom: 24px;
+                    h3{
+                        font-weight: 500;
+                        font-size: 40px;
+                        text-transform: uppercase;
+                        color: #000;
+                        margin-bottom: 24px;
+                    }
+                }
+
+                .climbing{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #cbcbcb;
+                    margin-bottom: 24px;
+                    h3{
+                        font-weight: 500;
+                        font-size: 40px;
+                        text-transform: uppercase;
+                        color: #000;
+                        margin-bottom: 24px;
+                    }
+                }
+
+                .rodeo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #cbcbcb;
+                    h3{
+                        font-weight: 500;
+                        font-size: 40px;
+                        text-transform: uppercase;
+                        color: #000;
+                        margin-bottom: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+.swallows{
+    margin-bottom: 195px;
+    .container{
+        max-width: 1024px;
+        .swallows-text{
+            max-width: 506px;
+            margin: 0 auto 64px;
+            h4{
+                font-weight: 500;
+                font-size: 48px;
+                letter-spacing: -0.04em;
+                text-transform: uppercase;
+                text-align: center;
+                color: #2c2c2c;
+            }
+        }
+        .cards-content{
+            display: flex;
+            gap: 24px;
+            .card-texts1{
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                max-width: 500px;
+                width: 100%;
+                .card-training{
+                    background-color: #ededed;
+                    padding: 48px 95px 69px 48px;
+                    border-radius: 30px;
+                    .clock{
+                        margin-bottom: 32px;
+                    }
+                    h5{
+                        font-weight: 500;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                        color: #000;
+                        margin-bottom: 16px;
+                    }
+                    p{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 137%;
+                        letter-spacing: 0.02em;
+                        color: #7a7a7a;
+                        max-width: 357px;
+                    }
+                }
+            }
+            .card-texts2{
+                transform: translateY(120px);
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                max-width: 500px;
+                width: 100%;
+                .card-training{
+                    background-color: #ededed;
+                    padding: 48px 95px 69px 48px;
+                    border-radius: 30px;
+                    .clock{
+                        margin-bottom: 32px;
+                    }
+                    h5{
+                        font-weight: 500;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                        color: #000;
+                        margin-bottom: 16px;
+                    }
+                    p{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 137%;
+                        letter-spacing: 0.02em;
+                        color: #7a7a7a;
+                        max-width: 357px;
+                    }
+                }
+            }
+        }
+    }
+}
+.sport-clubs{
+    margin-bottom: 120px;
+    .container{
+        .sport-clubs-text{
+            max-width: 507px;
+            margin: 0 auto 64px;
+            h5{
+                font-weight: 500;
+                font-size: 48px;
+                letter-spacing: -0.04em;
+                text-transform: uppercase;
+                text-align: center;
+                color: #2c2c2c;
+            }
+        }
+        .sport-club-content{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .snowboard1{
+                .link{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background: #ededed;
+                    border-radius: 30px;
+                    padding:48px;
+                    position: relative;
+                    button{
+                        border-radius: 38px;
+                        padding: 12px 24px;
+                        background: #000;
+                        font-weight: 400;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                        color: #fff;
+                        span{
+                            font-weight: 200;
+                            font-size: 20px;
+                        }
+                        &:hover{
+                            border:1px solid #000;
+                            background-color: #fff;
+                            color: #000;
+                        }
+                    }
+                    .media-img{
+                        display: none;
+                    }
+                    .snowboard-img{
+                        display: flex;
+                        align-items: center;
+                        img{
+                            position: absolute;
+                            left: 690px;
+                            top: -38px;
+                        }
+                       .snowboard-text{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+                            max-width: 346px;
+                            h5{
+                                font-weight: 500;
+                                font-size: 32px;
+                                text-transform: uppercase;
+                                color: #000;
+                                text-align: center;
+                            }
+                            p{
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 137%;
+                                letter-spacing: 0.02em;
+                                text-align: right;
+                                color: #7a7a7a;
+                            }
+                       }
+                    }
+                }
+                
+            }
+
+            .snowboard2{
+                .link{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background: #ededed;
+                    border-radius: 30px;
+                    padding:48px;
+                    position: relative;
+                    button{
+                        border-radius: 38px;
+                        padding: 12px 24px;
+                        background: #000;
+                        font-weight: 400;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                        color: #fff;
+                        span{
+                            font-weight: 200;
+                            font-size: 20px;
+                        }
+                        &:hover{
+                            border:1px solid #000;
+                            background-color: #fff;
+                            color: #000;
+                        }
+                        
+                    }
+                    .media-img{
+                        display: none;
+                    }
+                    .snowboard-img{
+                        display: flex;
+                        align-items: center;
+                        img{
+                            position: absolute;
+                            left: 750px;
+                            top: -18px;
+                        }
+                       .snowboard-text{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+                            max-width: 346px;
+                            h5{
+                                font-weight: 500;
+                                font-size: 32px;
+                                text-transform: uppercase;
+                                color: #000;
+                                text-align: center;
+                            }
+                            p{
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 137%;
+                                letter-spacing: 0.02em;
+                                text-align: right;
+                                color: #7a7a7a;
+                            }
+                       }
+                    }
+                }
+                
+            }
+
+            .snowboard3{
+                .link{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background: #ededed;
+                    border-radius: 30px;
+                    padding:48px;
+                    position: relative;
+                    button{
+                        border-radius: 38px;
+                        padding: 12px 24px;
+                        background: #000;
+                        font-weight: 400;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                        color: #fff;
+                        span{
+                            font-weight: 200;
+                            font-size: 20px;
+                        }
+                        &:hover{
+                            border:1px solid #000;
+                            background-color: #fff;
+                            color: #000;
+                        }
+                    }
+                    .media-img{
+                        display: none;
+                    }
+                    .snowboard-img{
+                        display: flex;
+                        align-items: center;
+                        img{
+                            position: absolute;
+                            left: 750px;
+                            top: -10px;
+                        }
+                       .snowboard-text{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+                            max-width: 346px;
+                            h5{
+                                font-weight: 500;
+                                font-size: 32px;
+                                text-transform: uppercase;
+                                color: #000;
+                                text-align: center;
+                            }
+                            p{
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 137%;
+                                letter-spacing: 0.02em;
+                                text-align: right;
+                                color: #7a7a7a;
+                            }
+                       }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+footer{
+    margin-bottom: 164px;
+    .container{
+        .footer-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            .footer-texts{
+                max-width: 350px;
+                .footer-logo{
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 137%;
+                    letter-spacing: 0.02em;
+                    color: #7a7a7a;
+                    margin-bottom: 63px;
+                }
+                h6{
+                    font-weight: 500;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    color: #2c2c2c;
+                    margin-bottom: 24px;
+                }
+                .icons{
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    transform: 0.2s;
+                    .you-tube{
+                        a{
+                            g{
+                                path:hover{
+                                    fill:red;
+                                }
+                            }
+                        }
+                    }
+                    .facebook{
+                        a{
+                            path:hover{
+                                fill:blue;
+                            }
+                        }
+                    }
+                    .telegram{
+                        a{
+                            path:hover{
+                                fill:blue;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            .footer-nav{
+                .page{
+                    display: flex;
+                    gap: 113px;
+                    .home{
+                        ul{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 32px;
+                            li{
+                                font-weight: 500;
+                                font-size: 16px;
+                                text-transform: uppercase;
+                                color: #7a7a7a;
+                                transition: 0.2s;
+                                &:hover{
+                                    color:#000;
+                                }
+                            }
+                        }
+                    }
+                    .platfom{
+                        ul{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 32px;
+                            margin-bottom: 52px;
+                            li{
+                                font-weight: 500;
+                                font-size: 16px;
+                                text-transform: uppercase;
+                                color: #7a7a7a;
+                                transition: 0.2s;
+                                &:hover{
+                                    color:#000;
+                                }
+                            }
+                        }
+                    }
+                }
+                button{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding: 8px 20px;
+                    border: 1px solid #2c2c2c;
+                    border-radius: 38px;
+                    background-color: inherit;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:1343px) {
+    .about{
+        margin-bottom: 120px;
+      .container{
+        .about-content{
+            .about-text{
+               
+                h1{
+                    font-weight: 600;
+                    font-size: 120px;
+                    letter-spacing: -0.04em;
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #2c2c2c;
+                }
+            }
+        }
+      }
+    }
+    .wrap{
+        .container{
+            .wrap-content{
+                display: flex;
+                gap: 10px;
+                align-items: start;
+                .wrap-text{
+                    p{
+                        max-width: 350px;
+                    }
+                }
+                .wrap-sports-equipment{
+                    max-width: 400px;
+                    width: 100%;
+                    .surfing{
+                        h3{
+                            font-weight: 500;
+                            font-size: 30px;
+                            margin-bottom: 15px;
+                        }
+                    }
+    
+                    .diving{
+                        h3{
+                            font-weight: 500;
+                            font-size: 30px;
+                            margin-bottom: 15px;
+                        }
+                    }
+    
+                    .climbing{
+                        h3{
+                            font-weight: 500;
+                            font-size: 30px;
+                            margin-bottom: 15px;
+                        }
+                    }
+    
+                    .rodeo{
+                        h3{
+                            font-weight: 500;
+                            font-size: 30px;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .swallows{
+        margin-bottom: 100px;
+        .container{
+            max-width: 1024px;
+            .cards-content{
+                display: flex;
+                gap: 24px;
+                .card-texts1{
+                    .card-training{
+                        padding: 40px;
+                       
+                    }
+                }
+                .card-texts2{
+                    transform: translateY(0px);
+                    .card-training{
+                        padding: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .sport-clubs{
+        margin-bottom: 120px;
+        .container{
+            .sport-club-content{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .snowboard1{
+                    .link{
+                        .snowboard-img{
+                            display: flex;
+                            align-items: center;
+                            img{
+                                position: absolute;
+                                left: 690px;
+                                top: -38px;
+                                display: none;
+                            }
+                           .snowboard-text{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 16px;
+                                max-width: 346px;
+                                h5{
+                                    font-weight: 500;
+                                    font-size: 32px;
+                                    text-transform: uppercase;
+                                    color: #000;
+                                    text-align: center;
+                                }
+                                p{
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 137%;
+                                    letter-spacing: 0.02em;
+                                    text-align: right;
+                                    color: #7a7a7a;
+                                }
+                           }
+                        }
+                    }
+                    
+                }
+    
+                .snowboard2{
+                    .link{
+                        .snowboard-img{
+                            display: flex;
+                            align-items: center;
+                            img{
+                                position: absolute;
+                                left: 750px;
+                                top: -18px;
+                                display: none;
+                            }
+                           .snowboard-text{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 16px;
+                                max-width: 346px;
+                                h5{
+                                    font-weight: 500;
+                                    font-size: 32px;
+                                    text-transform: uppercase;
+                                    color: #000;
+                                    text-align: center;
+                                }
+                                p{
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 137%;
+                                    letter-spacing: 0.02em;
+                                    text-align: right;
+                                    color: #7a7a7a;
+                                }
+                           }
+                        }
+                    }
+                    
+                }
+    
+                .snowboard3{
+                    .link{
+                        .snowboard-img{
+                            display: flex;
+                            align-items: center;
+                            img{
+                                position: absolute;
+                                left: 750px;
+                                display: none;
+                                top: -10px;
+                            }
+                           .snowboard-text{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 16px;
+                                max-width: 346px;
+                                h5{
+                                    font-weight: 500;
+                                    font-size: 32px;
+                                    text-transform: uppercase;
+                                    color: #000;
+                                    text-align: center;
+                                }
+                                p{
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 137%;
+                                    letter-spacing: 0.02em;
+                                    text-align: right;
+                                    color: #7a7a7a;
+                                }
+                           }
+                        }
+                    }
+                }
+            }
+        }
+    }
+ 
+}
+
+@media (max-width:837px) {
+    .container{
+        padding: 0 24px;
+    }
+    header{
+        padding: 32px 0;
+        .container{
+          .header-content{
+            nav{
+                ul{
+                    display: none;
+                }
+            }
+            button{
+                gap: 8px;
+                font-weight: 400;
+                font-size: 15px;
+                color: #2c2c2c;
+                padding: 8px 10px;
+            }
+          }
+        }
+    }
+    .about{
+        margin-bottom: 90px;
+      .container{
+        .about-content{
+            .about-text{
+                p{
+                    font-weight: 400;
+                    font-size: 10px;
+                }
+                h1{
+                    font-weight: 600;
+                    font-size: 50px;
+                    margin-bottom: 40px;
+                }
+            }
+            .about-bg{
+                background-image: url(../img/ski-flying-bg.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                max-height: 560px;
+                height: 100vh;
+                .about-img{
+                    .play{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-top: 231px;
+                    }
+                    .text{
+                        display: flex;
+                        justify-content: center;
+                        padding-top: 161px;
+                        padding-bottom: 30px;
+                        p{
+                            font-weight: 400;
+                            font-size: 16px;
+                            text-transform: uppercase;
+                            text-align: center;
+                            color: #fff;
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+      }
+    }
+    .wrap{
+        margin-bottom: 90px;
+        .container{
+            .wrap-content{
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                .wrap-text{
+                    max-width: 456px;
+                    h2{
+                        margin-bottom: 12px;
+                    }
+                    p{
+                        margin-bottom: 20px;
+                    }
+                }
+                .wrap-sports-equipment{
+                    .surfing{
+                        margin-bottom: 10px;
+                        h3{
+                            font-weight: 500;
+                            font-size: 25px;
+                            margin-bottom: 10px;
+                        }
+                        img{
+                            width: 30px;
+                            height: 30px;
+                            margin-bottom: 10px;
+                        }
+                    }
+    
+                    .diving{
+                        margin-bottom: 10px;
+                        h3{
+                            font-weight: 500;
+                            font-size: 25px;
+                            margin-bottom: 10px;
+                        }
+                        img{
+                            width: 30px;
+                            height: 30px;
+                            margin-bottom: 10px;
+                        }
+                    }
+    
+                    .climbing{
+                        margin-bottom: 10px;
+                        h3{
+                            font-weight: 500;
+                            font-size: 25px;
+                            margin-bottom: 10px;
+                        }
+                        img{
+                            width: 30px;
+                            height: 30px;
+                            margin-bottom: 10px;
+                        }
+                    }
+    
+                    .rodeo{
+                        margin-bottom: 0;
+                        h3{
+                            font-weight: 500;
+                            font-size: 25px;
+                            margin-bottom: 10px;
+                        }
+                        img{
+                            width: 30px;
+                            height: 30px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .swallows{
+        margin-bottom: 90px;
+        .container{
+            .swallows-text{
+                h4{
+                    font-weight: 500;
+                    font-size: 30px;
+                }
+            }
+            .cards-content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                .card-texts1{
+                    .card-training{
+                        padding: 30px;
+                    }
+                }
+                .card-texts2{
+                    .card-training{
+                        padding:30px;
+                    }
+                }
+            }
+        }
+    }
+    .sport-clubs{
+        margin-bottom: 90px;
+        .container{
+            .sport-clubs-text{
+                h5{
+                    font-weight: 500;
+                    font-size: 30px;
+                }
+            }
+            .sport-club-content{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .snowboard1{
+                    .link{
+                        flex-direction: column-reverse;
+                        padding:40px;
+                        .snowboard-img{
+                            display: flex;
+                            align-items: center;
+                            // padding-bottom: 190px;
+                            img{
+                                display: none;
+                            }
+                           .snowboard-text{
+                                display: flex;
+                                flex-direction: column;
+                                h5{
+                                    font-weight: 500;
+                                    font-size: 30px;
+                                    text-align: center;
+                                }
+                                p{
+                                    text-align: center;
+                                    margin-bottom: 20px;
+                                }
+                           }
+                        }
+                        .media-img{
+                            display: block;
+                            img{
+                                height: 170px;
+                            }
+                        }
+                    }
+                    
+                }
+                .snowboard2{
+                    .link{
+                        flex-direction: column-reverse;
+                        padding:40px;
+                        .snowboard-img{
+                            display: flex;
+                            align-items: center;
+                            img{
+                                display: none;
+                            }
+                           .snowboard-text{
+                                display: flex;
+                                flex-direction: column;
+                                h5{
+                                    font-weight: 500;
+                                    font-size: 30px;
+                                    text-align: center;
+                                }
+                                p{
+                                    text-align: center;
+                                    margin-bottom: 20px;
+                                }
+                           }
+                        }
+                        .media-img{
+                            display: block;
+                            img{
+                                height: 170px;
+                            }
+                        }
+                    }
+                    
+                }
+                .snowboard3{
+                    .link{
+                        flex-direction: column-reverse;
+                        padding:40px;
+                        .snowboard-img{
+                            display: flex;
+                            align-items: center;
+                            img{
+                                display: none;
+                            }
+                           .snowboard-text{
+                                display: flex;
+                                flex-direction: column;
+                                h5{
+                                    font-weight: 500;
+                                    font-size: 30px;
+                                    text-align: center;
+                                }
+                                p{
+                                    text-align: center;
+                                    margin-bottom: 20px;
+                                }
+                           }
+                        }
+                        .media-img{
+                            display: block;
+                            img{
+                                height: 170px;
+                            }
+                        }
+                    }
+                    
+                }
+                
+            }
+        }
+    }
+    footer{
+        margin-bottom: 100px;
+        .container{
+            .footer-content{
+                flex-direction: column;
+                align-items: center;
+                .footer-texts{
+                    text-align: center;
+                    h6{
+                        text-align: center;
+                    }
+                    .footer-logo{
+                        margin-bottom: 20px;
+                        
+                    }
+                    .icons{
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        margin-bottom: 30px;
+                        
+                    }
+                }
+                .footer-nav{
+                    .page{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 50px;
+                        .home{
+                            ul{
+                                display: flex;
+                                flex-direction: column;
+                                text-align: center;
+                                gap: 32px;
+                                li{
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    text-transform: uppercase;
+                                    color: #7a7a7a;
+                                    transition: 0.2s;
+                                    &:hover{
+                                        color:#000;
+                                    }
+                                }
+                            }
+                        }
+                        .platfom{
+                            ul{
+                                gap: 32px;
+                                margin-bottom: 52px;
+                                text-align: center;
+                                li{
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    text-transform: uppercase;
+                                    color: #7a7a7a;
+                                    transition: 0.2s;
+                                    &:hover{
+                                        color:#000;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    button{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        padding: 8px 20px;
+                        border: 1px solid #2c2c2c;
+                        border-radius: 38px;
+                        background-color: inherit;
+                    }
+                }
+            }
+        }
+    }
+
+}
